@@ -1,0 +1,257 @@
+{
+  "$ID": "84776610-13b2-48cb-a265-d5e984d63129",
+  "$Type": "DomainModels$DomainModel",
+  "documentation": "",
+  "entities": [
+    {
+      "$ID": "edc881de-c39c-4760-8717-5ea220b988c1",
+      "$Type": "DomainModels$Entity",
+      "name": "CustomerII_1692701240842",
+      "dataStorageGuid": "05455e82-bec1-4fe4-8f2c-f01a9d639c2a",
+      "location": { "x": 410, "y": 150 },
+      "documentation": "",
+      "generalization": {
+        "$ID": "ca0e3954-50a2-477c-bd3e-086267132bdb",
+        "$Type": "DomainModels$Generalization",
+        "generalization": "Administration.Account"
+      },
+      "attributes": [
+        {
+          "$ID": "07648f25-5f32-4424-a875-b777a71921af",
+          "$Type": "DomainModels$Attribute",
+          "name": "name_",
+          "dataStorageGuid": "8a1c7480-aa57-4e05-b65c-4c83513b1bda",
+          "type": {
+            "$ID": "301b7619-d1e0-5ef3-8a20-5c4167d6c30b",
+            "$Type": "DomainModels$StringAttributeType",
+            "length": 200
+          },
+          "documentation": "",
+          "value": {
+            "$ID": "f3955d33-16ea-5e1e-b04f-052b27626ac2",
+            "$Type": "DomainModels$StoredValue",
+            "defaultValue": ""
+          },
+          "exportLevel": "Hidden"
+        },
+        {
+          "$ID": "b274a165-bcf4-42b1-896b-b07f04fcc152",
+          "$Type": "DomainModels$Attribute",
+          "name": "age_",
+          "dataStorageGuid": "c65e1f48-f637-4c58-bde0-a9c6e3e24ba2",
+          "type": {
+            "$ID": "4fd2302f-2a3a-5d60-8676-cbf901dea88a",
+            "$Type": "DomainModels$StringAttributeType",
+            "length": 200
+          },
+          "documentation": "",
+          "value": {
+            "$ID": "327858be-d935-5258-8672-9663c9f2e1bb",
+            "$Type": "DomainModels$StoredValue",
+            "defaultValue": ""
+          },
+          "exportLevel": "Hidden"
+        }
+      ],
+      "validationRules": [],
+      "eventHandlers": [],
+      "indexes": [],
+      "accessRules": [],
+      "image": null,
+      "imageData": "",
+      "source": null,
+      "exportLevel": "Hidden"
+    },
+    {
+      "$ID": "3aef4d64-92be-4202-bb8e-8f54febcacd9",
+      "$Type": "DomainModels$Entity",
+      "name": "CreatedEntity",
+      "dataStorageGuid": "6aed5fee-6b28-404d-9d21-99da6297ab39",
+      "location": { "x": 110, "y": 10 },
+      "documentation": "",
+      "generalization": {
+        "$ID": "8e96342c-91bd-4299-bfb6-ed05ef3527ec",
+        "$Type": "DomainModels$NoGeneralization",
+        "hasChangedDate": false,
+        "hasCreatedDate": false,
+        "hasOwner": false,
+        "hasChangedBy": false,
+        "persistable": true
+      },
+      "attributes": [
+        {
+          "$ID": "aacb97f6-8e91-4699-bac7-92e716509672",
+          "$Type": "DomainModels$Attribute",
+          "name": "Name",
+          "dataStorageGuid": "d8ec69ee-9ce3-4c99-81c0-667ae0714219",
+          "type": {
+            "$ID": "5a9e1017-e5a4-4fb5-96e4-2501d023ed59",
+            "$Type": "DomainModels$StringAttributeType",
+            "length": 200
+          },
+          "documentation": "",
+          "value": {
+            "$ID": "6c0540c5-a631-4a7d-b8bd-25d1c9d174c9",
+            "$Type": "DomainModels$StoredValue",
+            "defaultValue": ""
+          },
+          "exportLevel": "Hidden"
+        }
+      ],
+      "validationRules": [],
+      "eventHandlers": [],
+      "indexes": [],
+      "accessRules": [],
+      "image": null,
+      "imageData": "",
+      "source": null,
+      "exportLevel": "Hidden"
+    },
+    {
+      "$ID": "9ec71bd1-6b5b-48e4-9358-1d0529408fe4",
+      "$Type": "DomainModels$Entity",
+      "name": "StartI",
+      "dataStorageGuid": "46a7f7b3-776d-4740-b53c-640e644f08c0",
+      "location": { "x": 250, "y": 350 },
+      "documentation": "",
+      "generalization": {
+        "$ID": "3c397ab7-9581-4127-a6f2-7c8fd9a778f7",
+        "$Type": "DomainModels$NoGeneralization",
+        "hasChangedDate": false,
+        "hasCreatedDate": false,
+        "hasOwner": false,
+        "hasChangedBy": false,
+        "persistable": true
+      },
+      "attributes": [],
+      "validationRules": [],
+      "eventHandlers": [],
+      "indexes": [],
+      "accessRules": [],
+      "image": null,
+      "imageData": "",
+      "source": null,
+      "exportLevel": "Hidden"
+    },
+    {
+      "$ID": "aef3c4b8-95db-463c-843c-d75e8ad39f6d",
+      "$Type": "DomainModels$Entity",
+      "name": "Star2",
+      "dataStorageGuid": "94f32f7f-6c6d-448e-a16a-ae6163af23e1",
+      "location": { "x": 640, "y": 350 },
+      "documentation": "",
+      "generalization": {
+        "$ID": "5796de76-d68b-445d-a9c8-1d79b8d12fda",
+        "$Type": "DomainModels$NoGeneralization",
+        "hasChangedDate": false,
+        "hasCreatedDate": false,
+        "hasOwner": false,
+        "hasChangedBy": false,
+        "persistable": true
+      },
+      "attributes": [],
+      "validationRules": [],
+      "eventHandlers": [],
+      "indexes": [],
+      "accessRules": [],
+      "image": null,
+      "imageData": "",
+      "source": null,
+      "exportLevel": "Hidden"
+    },
+    {
+      "$ID": "e96c3de1-3221-4356-aea1-8917e9698a19",
+      "$Type": "DomainModels$Entity",
+      "name": "CreatedEntity",
+      "dataStorageGuid": "c504c2b8-5a25-47b6-891c-6f7484dd0885",
+      "location": { "x": 100, "y": 100 },
+      "documentation": "",
+      "generalization": {
+        "$ID": "27bdf0d7-cac4-40c7-bf32-f1fec8f7ddca",
+        "$Type": "DomainModels$NoGeneralization",
+        "hasChangedDate": false,
+        "hasCreatedDate": false,
+        "hasOwner": false,
+        "hasChangedBy": false,
+        "persistable": true
+      },
+      "attributes": [
+        {
+          "$ID": "cdd4e38c-b488-485a-b144-f9fb008a2129",
+          "$Type": "DomainModels$Attribute",
+          "name": "Name",
+          "dataStorageGuid": "3cc37ebf-3e42-4656-8591-237f72a78589",
+          "type": {
+            "$ID": "b0f9a926-8d34-40bd-9161-30c10648ae73",
+            "$Type": "DomainModels$StringAttributeType",
+            "length": 200
+          },
+          "documentation": "",
+          "value": {
+            "$ID": "bd5f0f17-c10e-424d-854a-77d5dfc38b5e",
+            "$Type": "DomainModels$StoredValue",
+            "defaultValue": ""
+          },
+          "exportLevel": "Hidden"
+        }
+      ],
+      "validationRules": [],
+      "eventHandlers": [],
+      "indexes": [],
+      "accessRules": [],
+      "image": null,
+      "imageData": "",
+      "source": null,
+      "exportLevel": "Hidden"
+    }
+  ],
+  "annotations": [],
+  "associations": [
+    {
+      "$ID": "345fd454-bdb1-4a63-b8cf-02a889291bdc",
+      "$Type": "DomainModels$Association",
+      "name": "StartI_Star2",
+      "dataStorageGuid": "e1566e10-b8ab-4017-997d-96cc7816e1b7",
+      "type": "ReferenceSet",
+      "owner": "Default",
+      "deleteBehavior": {
+        "$ID": "a70ff892-9e42-4ba1-a1d3-ef6664a7d221",
+        "$Type": "DomainModels$AssociationDeleteBehavior",
+        "parentDeleteBehavior": "DeleteMeButKeepReferences",
+        "childDeleteBehavior": "DeleteMeButKeepReferences",
+        "parentErrorMessage": null,
+        "childErrorMessage": null
+      },
+      "parent": "9ec71bd1-6b5b-48e4-9358-1d0529408fe4",
+      "documentation": "",
+      "source": null,
+      "exportLevel": "Hidden",
+      "child": "aef3c4b8-95db-463c-843c-d75e8ad39f6d",
+      "parentConnection": { "x": 100, "y": 57 },
+      "childConnection": { "x": 0, "y": 45 }
+    }
+  ],
+  "crossAssociations": [
+    {
+      "$ID": "9e87e957-6ae8-49ef-86ae-e0083af33d5d",
+      "$Type": "DomainModels$CrossAssociation",
+      "name": "CustomerII_1692701240842_bossCar",
+      "dataStorageGuid": "be8103e5-83a9-405c-8a41-d1fc5c902d2b",
+      "type": "Reference",
+      "owner": "Default",
+      "deleteBehavior": {
+        "$ID": "bf4b2e60-cd80-4409-81af-648091f57b1e",
+        "$Type": "DomainModels$AssociationDeleteBehavior",
+        "parentDeleteBehavior": "DeleteMeButKeepReferences",
+        "childDeleteBehavior": "DeleteMeButKeepReferences",
+        "parentErrorMessage": null,
+        "childErrorMessage": null
+      },
+      "parent": "edc881de-c39c-4760-8717-5ea220b988c1",
+      "documentation": "",
+      "source": null,
+      "exportLevel": "Hidden",
+      "child": "ModuleII.bossCarII"
+    }
+  ]
+}

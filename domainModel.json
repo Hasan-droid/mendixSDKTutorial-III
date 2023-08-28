@@ -1,0 +1,110 @@
+[
+  {
+    "$ID": "013133c3-121f-463e-99be-b6af8c009580",
+    "$Type": "Projects$Module",
+    "sortIndex": 2,
+    "name": "DataWidgets",
+    "fromAppStore": true,
+    "appStoreGuid": "b0376c9a-37f9-4c96-bca9-491d20f3e975",
+    "appStoreVersionGuid": "51f684aa-bc68-4dce-9d66-3a4f000c7047",
+    "appStoreVersion": "2.8.4",
+    "appStorePackageId": 116540,
+    "isThemeModule": true
+  },
+  {
+    "$ID": "16747dc6-b6b7-42ae-aabf-255dca2aeeaf",
+    "$Type": "Projects$Module",
+    "sortIndex": 2,
+    "name": "MyFirstModule",
+    "fromAppStore": false,
+    "appStoreGuid": "",
+    "appStoreVersionGuid": "",
+    "appStoreVersion": "",
+    "appStorePackageId": 0,
+    "isThemeModule": false
+  },
+  {
+    "$ID": "249cd5f0-d14f-4284-b1b4-8b54325838ce",
+    "$Type": "Projects$Module",
+    "sortIndex": 38,
+    "name": "Atlas_Core",
+    "fromAppStore": true,
+    "appStoreGuid": "0404ab0c-4521-419c-9a90-b804e7038da3",
+    "appStoreVersionGuid": "dbebc5cf-3d12-42d1-b152-48bd85ee9fa5",
+    "appStoreVersion": "3.11.2",
+    "appStorePackageId": 117187,
+    "isThemeModule": true
+  },
+  {
+    "$ID": "3ad88f39-d2e5-46b0-81ff-c14f4d868f34",
+    "$Type": "Projects$Module",
+    "sortIndex": 39,
+    "name": "Atlas_Web_Content",
+    "fromAppStore": true,
+    "appStoreGuid": "08060dc1-8f61-4969-8f90-707c74fc0cc1",
+    "appStoreVersionGuid": "c92caf66-bc47-414c-babb-4c1473eca314",
+    "appStoreVersion": "3.4.0",
+    "appStorePackageId": 117183,
+    "isThemeModule": true
+  },
+  {
+    "$ID": "55fa2ea8-4d70-4580-b102-68d38cd7e498",
+    "$Type": "Projects$Module",
+    "sortIndex": -0.5,
+    "name": "Administration",
+    "fromAppStore": true,
+    "appStoreGuid": "1d7b7a3f-84e6-4fc1-baf0-afbd0ee23b13",
+    "appStoreVersionGuid": "c1d3fdb1-ae3d-41c3-8f42-8cdea8b4d468",
+    "appStoreVersion": "3.0.0",
+    "appStorePackageId": 23513,
+    "isThemeModule": false
+  },
+  {
+    "$ID": "568275cf-4cd5-4a13-a631-347778939309",
+    "$Type": "Projects$Module",
+    "sortIndex": 2.75,
+    "name": "NanoflowCommons",
+    "fromAppStore": true,
+    "appStoreGuid": "75fda84f-6c3d-460d-98eb-50cdbfd3b53d",
+    "appStoreVersionGuid": "5bcc0463-0571-4adf-8e73-5111bb0f20a6",
+    "appStoreVersion": "4.0.0",
+    "appStorePackageId": 109515,
+    "isThemeModule": false
+  },
+  {
+    "$ID": "81afc677-a454-4ec9-8bf3-3d9f66e617ab",
+    "$Type": "Projects$Module",
+    "sortIndex": 3,
+    "name": "WebActions",
+    "fromAppStore": true,
+    "appStoreGuid": "87f3694f-b0d1-432e-a150-df1753dbd0e8",
+    "appStoreVersionGuid": "f1122e62-b384-4c14-850e-7b983513dcf0",
+    "appStoreVersion": "2.8.0",
+    "appStorePackageId": 114337,
+    "isThemeModule": false
+  },
+  {
+    "$ID": "bd7ae23c-f735-43c2-b8ed-cd4275d78b8c",
+    "$Type": "Projects$Module",
+    "sortIndex": 3.0913842463969163,
+    "name": "ModuleII",
+    "fromAppStore": false,
+    "appStoreGuid": "",
+    "appStoreVersionGuid": "",
+    "appStoreVersion": "",
+    "appStorePackageId": 0,
+    "isThemeModule": false
+  },
+  {
+    "$ID": "c6f41fd4-116f-49c2-b096-5f874263897c",
+    "$Type": "Projects$Module",
+    "sortIndex": 4,
+    "name": "FeedbackModule",
+    "fromAppStore": true,
+    "appStoreGuid": "de8fdcee-11ea-4431-aead-8caba99a1c60",
+    "appStoreVersionGuid": "61b5dc54-0504-4b80-9da4-7e87c8096cf5",
+    "appStoreVersion": "1.2.0",
+    "appStorePackageId": 205506,
+    "isThemeModule": false
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "$ID": "16747dc6-b6b7-42ae-aabf-255dca2aeeaf",
+    "$Type": "Projects$Module",
+    "sortIndex": 2,
+    "name": "MyFirstModule",
+    "fromAppStore": false,
+    "appStoreGuid": "",
+    "appStoreVersionGuid": "",
+    "appStoreVersion": "",
+    "appStorePackageId": 0,
+    "isThemeModule": false
+  },
+  {
+    "$ID": "bd7ae23c-f735-43c2-b8ed-cd4275d78b8c",
+    "$Type": "Projects$Module",
+    "sortIndex": 3.0913842463969163,
+    "name": "ModuleII",
+    "fromAppStore": false,
+    "appStoreGuid": "",
+    "appStoreVersionGuid": "",
+    "appStoreVersion": "",
+    "appStorePackageId": 0,
+    "isThemeModule": false
+  }
+]
