@@ -1,5 +1,5 @@
 import { domainmodels } from "mendixmodelsdk";
-import { MendixPlatformClient } from "mendixplatformsdk";
+import { MendixPlatformClient, OnlineWorkingCopy } from "mendixplatformsdk";
 import { isModuleReference } from "typescript";
 
 async function main() {
@@ -36,9 +36,6 @@ async function main() {
     getProjectEntitiesAndAssociations(modules, index + 1);
   };
   getProjectEntitiesAndAssociations(modulesCreatedByDevelopers, 0);
-  await model.flushChanges();
-
-  await workingCopy.commitToRepository("main");
 }
 
 main().catch(console.error);
