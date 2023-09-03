@@ -1,18 +1,19 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const mendixplatformsdk_1 = require("mendixplatformsdk");
-async function main() {
+async function main(token, apiId) {
+  mendixplatformsdk_1.setPlatformConfig({
+    mendixToken: token,
+  });
   const client = new mendixplatformsdk_1.MendixPlatformClient();
-  const app = await client.getApp("fa517ca0-7b0c-4db6-9b64-039cfed357e7");
+  const app = await client.getApp(apiId);
   const workingCopy = await app.createTemporaryWorkingCopy("main");
   const model = await workingCopy.openModel();
-  const fs = require("fs");
+
   const modulesCreatedByDevelopers = model.allModules().filter((module) => module.fromAppStore === false);
-  fs.writeFileSync("modulesCreatedByDevelopers.json", JSON.stringify(modulesCreatedByDevelopers, null, 2));
   let entitiesAndAssociations = [];
   const getProjectEntitiesAndAssociations = async (modules, index) => {
     if (modules[index] === undefined || modules[index] === null) {
-      fs.writeFileSync("EntitiesAndAssociationsV.json", JSON.stringify(entitiesAndAssociations, null, 2));
       return entitiesAndAssociations;
     }
     const getModule = modules[index];
